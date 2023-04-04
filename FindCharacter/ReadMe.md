@@ -2,7 +2,7 @@
 
 Write a C++ program to find the character for a given index position in the string.
 
-Example: If the given string is â€œworldâ€, and the given index is â€œ2â€ the output should be r. Always the index starts with zero.
+Example: If the given string is world, and the given index is 3 the output should be r. Always the index starts with zero.
 
 0
 	
