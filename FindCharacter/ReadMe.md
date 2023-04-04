@@ -5,6 +5,7 @@ Write a C++ program to find the character for a given index position in the stri
 Example: If the given string is world, and the given index is 3 the output should be r. Always the index starts with zero.
 
 0	1	2	3	4	
+
 w	o	r	l	d
 
 
