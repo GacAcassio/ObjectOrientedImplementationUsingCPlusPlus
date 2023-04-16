@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string.h>
+
 using namespace std;
+
 class Employee
 {
     private:
@@ -58,19 +60,16 @@ class Employee
             cin >> this->employeeName;
             cout << "Enter salary(in dollars):\n";
             cin >> this->salary;
+            this->setEmployeeId(this->generateEmployeeId());
         }
         static int generateEmployeeId()
         {
             count++;
             return count;
         }
-        
-        Employee()
-        {
-            count = 100;
-        }
 };
 
+int Employee::count = 99;
 
 int main() 
 {
